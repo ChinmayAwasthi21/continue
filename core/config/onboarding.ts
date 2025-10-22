@@ -108,6 +108,15 @@ export function setupProviderConfig(
   let newModels;
 
   switch (provider) {
+    case "a4f":
+      newModels = A4F_MODEL_CONFIG.defaultModels.map((model) => ({
+        name: model,
+        provider: "a4f",
+        model: model,
+        apiKey: apiKey,
+        roles: ["chat", "edit", "apply"],
+      }));
+      break;
     case "openai":
       newModels = OPENAI_MODEL_CONFIG.slugs.map((slug) => ({
         uses: slug,
