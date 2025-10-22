@@ -64,6 +64,7 @@ import Voyage from "./Voyage";
 import WatsonX from "./WatsonX";
 import xAI from "./xAI";
 export const LLMClasses = [
+  A4F,
   Anthropic,
   Cohere,
   FunctionNetwork,
