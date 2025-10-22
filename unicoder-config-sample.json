@@ -1,0 +1,100 @@
+{
+  "models": [
+    {
+      "title": "GPT-4o Latest",
+      "provider": "a4f",
+      "model": "provider-1/chatgpt-4o-latest",
+      "apiKey": "ddc-a4f-65e1f8bbd0a843189c92111fb399fc80",
+      "apiBase": "https://api.a4f.co/v1/"
+    },
+    {
+      "title": "GPT-4 Turbo",
+      "provider": "a4f",
+      "model": "provider-1/gpt-4-turbo",
+      "apiKey": "ddc-a4f-65e1f8bbd0a843189c92111fb399fc80",
+      "apiBase": "https://api.a4f.co/v1/"
+    },
+    {
+      "title": "GPT-3.5 Turbo",
+      "provider": "a4f",
+      "model": "provider-1/gpt-3.5-turbo",
+      "apiKey": "ddc-a4f-65e1f8bbd0a843189c92111fb399fc80",
+      "apiBase": "https://api.a4f.co/v1/"
+    },
+    {
+      "title": "Claude 3.5 Sonnet",
+      "provider": "a4f",
+      "model": "provider-2/claude-3-5-sonnet-20241022",
+      "apiKey": "ddc-a4f-65e1f8bbd0a843189c92111fb399fc80",
+      "apiBase": "https://api.a4f.co/v1/"
+    },
+    {
+      "title": "Claude 3 Opus",
+      "provider": "a4f",
+      "model": "provider-2/claude-3-opus-20240229",
+      "apiKey": "ddc-a4f-65e1f8bbd0a843189c92111fb399fc80",
+      "apiBase": "https://api.a4f.co/v1/"
+    },
+    {
+      "title": "Gemini 2.0 Flash",
+      "provider": "a4f",
+      "model": "provider-3/gemini-2.0-flash-exp",
+      "apiKey": "ddc-a4f-65e1f8bbd0a843189c92111fb399fc80",
+      "apiBase": "https://api.a4f.co/v1/"
+    }
+  ],
+  "tabAutocompleteModel": {
+    "title": "GPT-3.5 Turbo Autocomplete",
+    "provider": "a4f",
+    "model": "provider-1/gpt-3.5-turbo",
+    "apiKey": "ddc-a4f-65e1f8bbd0a843189c92111fb399fc80",
+    "apiBase": "https://api.a4f.co/v1/"
+  },
+  "embeddingsProvider": {
+    "provider": "a4f",
+    "model": "text-embedding-3-small",
+    "apiKey": "ddc-a4f-65e1f8bbd0a843189c92111fb399fc80",
+    "apiBase": "https://api.a4f.co/v1/"
+  },
+  "contextProviders": [
+    {
+      "name": "code"
+    },
+    {
+      "name": "docs"
+    },
+    {
+      "name": "diff"
+    },
+    {
+      "name": "terminal"
+    },
+    {
+      "name": "problems"
+    },
+    {
+      "name": "folder"
+    },
+    {
+      "name": "codebase"
+    }
+  ],
+  "slashCommands": [
+    {
+      "name": "edit",
+      "description": "Edit selected code"
+    },
+    {
+      "name": "comment",
+      "description": "Write comments for the selected code"
+    },
+    {
+      "name": "share",
+      "description": "Export the current chat session to markdown"
+    },
+    {
+      "name": "cmd",
+      "description": "Generate a shell command"
+    }
+  ]
+}
