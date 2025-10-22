@@ -1,7 +1,7 @@
 {
-  "name": "continue",
+  "name": "unicoder",
   "icon": "media/icon.png",
-  "author": "Continue Dev, Inc",
+  "author": "Unicoder",
   "version": "1.1.72",
   "repository": {
     "type": "git",
@@ -18,10 +18,10 @@
   "homepage": "https://continue.dev",
   "qna": "https://github.com/continuedev/continue/issues/new/choose",
   "license": "Apache-2.0",
-  "displayName": "Continue - open-source AI code assistant",
+  "displayName": "Unicoder - AI Code Assistant with A4F.co",
   "pricing": "Free",
-  "description": "The leading open-source AI code assistant",
-  "publisher": "Continue",
+  "description": "AI code assistant powered by A4F.co with access to hundreds of models",
+  "publisher": "Unicoder",
   "engines": {
     "vscode": "^1.70.0",
     "node": ">=20.19.0"
