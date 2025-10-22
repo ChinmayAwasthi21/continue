@@ -84,12 +84,12 @@
       }
     ],
     "configuration": {
-      "title": "Continue",
+      "title": "Unicoder",
       "properties": {
         "continue.telemetryEnabled": {
           "type": "boolean",
-          "default": true,
-          "markdownDescription": "Continue collects anonymous usage data, cleaned of PII, to help us improve the product for our users. Read more  at [continue.dev › Telemetry](https://docs.continue.dev/telemetry)."
+          "default": false,
+          "markdownDescription": "Unicoder telemetry - disabled by default for privacy."
         },
         "continue.showInlineTip": {
           "type": "boolean",
