@@ -26,34 +26,69 @@
 
 <p></p>
 
-## Agent
+## ✨ Features
 
-[Agent](https://continue.dev/docs/agent/how-to-use-it) enables you to make more substantial changes to your codebase
+### 🤖 Agent Mode
+Make substantial changes to your codebase with AI assistance
 
 ![agent](./media/agent.gif)
 
-## Chat
-
-[Chat](https://continue.dev/docs/chat/how-to-use-it) makes it easy to ask for help from an LLM without needing to leave
-the IDE
+### 💬 Chat Interface
+Ask for help from hundreds of AI models without leaving VS Code
 
 ![chat](./media/chat.gif)
 
-## Edit
-
-[Edit](https://continue.dev/docs/edit/how-to-use-it) is a convenient way to modify code without leaving your current
-file
+### ✏️ Code Editing
+Modify code with natural language instructions
 
 ![edit](./media/edit.gif)
 
-## Autocomplete
-
-[Autocomplete](https://continue.dev/docs/autocomplete/how-to-use-it) provides inline code suggestions as you type
+### ⚡ Autocomplete
+Get inline code suggestions powered by multiple AI models
 
 ![autocomplete](./media/autocomplete.gif)
 
 </div>
 
+## 🚀 Pre-configured & Ready to Use
+
+Unicoder comes with your A4F.co API key already configured:
+- **No setup required** - Start coding immediately
+- **Access to hundreds of models** - GPT-4, Claude, Gemini, and more
+- **Single API key** - One key for all models
+
+### Available Models (Pre-configured)
+
+- GPT-4o Latest
+- GPT-4 Turbo  
+- GPT-3.5 Turbo
+- Claude 3.5 Sonnet
+- Claude 3 Opus
+- Gemini 2.0 Flash
+- And many more at [a4f.co/models](https://www.a4f.co/models)
+
+## ⌨️ Keyboard Shortcuts
+
+- `Cmd/Ctrl + L` - Add code to chat and clear conversation
+- `Cmd/Ctrl + Shift + L` - Add code to context
+- `Cmd/Ctrl + I` - Edit selected code with AI
+- `Cmd/Ctrl + K, Cmd/Ctrl + M` - Open in new window
+- `Cmd/Ctrl + K, Cmd/Ctrl + A` - Toggle autocomplete
+
+## 📖 Documentation
+
+- [A4F.co Documentation](https://www.a4f.co/docs)
+- [Available Models](https://www.a4f.co/models)
+- See `UNICODER-README.md` for detailed usage instructions
+
+## 🔐 Privacy
+
+- Telemetry **disabled by default**
+- API key stored locally
+- Based on the open-source Continue framework
+
 ## License
 
 [Apache 2.0 © 2023-2025 Continue Dev, Inc.](./LICENSE)
+
+Built on Continue with A4F.co integration
