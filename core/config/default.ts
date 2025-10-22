@@ -1,4 +1,5 @@
 import { ConfigYaml } from "@continuedev/config-yaml";
+import { setupUnicoderConfig } from "./onboarding.js";
 
 export const defaultContextProvidersVsCode: NonNullable<
   ConfigYaml["context"]
@@ -20,16 +21,19 @@ export const defaultContextProvidersJetBrains: NonNullable<
   { provider: "codebase" },
 ];
 
-export const defaultConfig: ConfigYaml = {
-  name: "Local Assistant",
+// Unicoder default configuration with A4F.co preconfigured
+const unicoderBaseConfig: ConfigYaml = {
+  name: "Unicoder Assistant",
   version: "1.0.0",
   schema: "v1",
   models: [],
   context: defaultContextProvidersVsCode,
 };
 
+export const defaultConfig: ConfigYaml = setupUnicoderConfig(unicoderBaseConfig);
+
 export const defaultConfigJetBrains: ConfigYaml = {
-  name: "Local Assistant",
+  name: "Unicoder Assistant",
   version: "1.0.0",
   schema: "v1",
   models: [],
