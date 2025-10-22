@@ -40,14 +40,33 @@ const A4F_MODEL_CONFIG = {
 };
 
 /**
+ * Unicoder default configuration with A4F.co - preconfigured for immediate use
+ */
+export function setupUnicoderConfig(config: ConfigYaml): ConfigYaml {
+  const a4fModels = UNICODER_A4F_DEFAULT_MODELS.map(model => ({
+    name: model,
+    provider: "a4f",
+    model: model,
+    apiKey: UNICODER_A4F_API_KEY,
+    roles: ["chat", "edit", "apply"],
+  }));
+
+  return {
+    ...config,
+    models: [
+      ...a4fModels,
+      ...(config.models ?? []),
+    ],
+  };
+}
+
+/**
  * We set the "best" chat + autocopmlete models by default
  * whenever a user doesn't have a config.json
  */
 export function setupBestConfig(config: ConfigYaml): ConfigYaml {
-  return {
-    ...config,
-    models: config.models,
-  };
+  // Default to Unicoder configuration
+  return setupUnicoderConfig(config);
 }
 
 export function setupLocalConfig(config: ConfigYaml): ConfigYaml {
