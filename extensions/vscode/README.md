@@ -1,14 +1,14 @@
 <div align="center">
 
-![Continue logo](media/readme.png)
+![Unicoder logo](media/readme.png)
 
 </div>
 
-<h1 align="center">Continue</h1>
+<h1 align="center">Unicoder</h1>
 
 <div align="center">
 
-**[Continue](https://docs.continue.dev) enables developers to create, share, and use custom AI code assistants with our open-source [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Continue.continue) and [hub of models, rules, prompts, docs, and other building blocks](https://hub.continue.dev)**
+**Unicoder is an AI code assistant powered by A4F.co, giving you instant access to hundreds of AI models including GPT-4, Claude, Gemini, and more through a single pre-configured API key.**
 
 </div>
 
