@@ -18,7 +18,7 @@ export async function activateExtension(context: vscode.ExtensionContext) {
     const platformTarget = "windows-arm64";
 
     void vscode.window.showInformationMessage(
-      `Continue detected that you are using ${platformTarget}. Due to native dependencies, Continue may not be able to start`,
+      `Unicoder detected that you are using ${platformTarget}. Due to native dependencies, Unicoder may not be able to start`,
     );
 
     void Telemetry.capture(
