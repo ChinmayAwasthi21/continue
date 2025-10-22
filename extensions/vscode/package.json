@@ -146,21 +146,21 @@
     "commands": [
       {
         "command": "continue.applyCodeFromChat",
-        "category": "Continue",
+        "category": "Unicoder",
         "title": "Apply code from chat",
-        "group": "Continue"
+        "group": "Unicoder"
       },
       {
         "command": "continue.acceptDiff",
-        "category": "Continue",
+        "category": "Unicoder",
         "title": "Accept Diff",
-        "group": "Continue"
+        "group": "Unicoder"
       },
       {
         "command": "continue.rejectDiff",
-        "category": "Continue",
+        "category": "Unicoder",
         "title": "Reject Diff",
-        "group": "Continue",
+        "group": "Unicoder",
         "icon": "$(stop)"
       },
       {
