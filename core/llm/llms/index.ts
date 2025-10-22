@@ -9,6 +9,7 @@ import {
 } from "../..";
 import { renderTemplatedString } from "../../util/handlebars/renderTemplatedString";
 import { BaseLLM } from "../index";
+import A4F from "./A4F";
 import Anthropic from "./Anthropic";
 import Asksage from "./Asksage";
 import Azure from "./Azure";
