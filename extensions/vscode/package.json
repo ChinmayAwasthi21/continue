@@ -109,7 +109,7 @@
         "continue.enableTabAutocomplete": {
           "type": "boolean",
           "default": true,
-          "markdownDescription": "Enable Continue's tab autocomplete feature. Read our walkthrough to learn about configuration and how to share feedback: [continue.dev › Walkthrough: Tab Autocomplete (beta)](https://docs.continue.dev/features/tab-autocomplete)"
+          "markdownDescription": "Enable Unicoder's tab autocomplete feature powered by A4F.co models"
         },
         "continue.pauseTabAutocompleteOnBattery": {
           "type": "boolean",
