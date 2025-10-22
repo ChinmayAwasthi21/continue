@@ -8,6 +8,17 @@ export const LOCAL_ONBOARDING_CHAT_TITLE = "Llama 3.1 8B";
 export const LOCAL_ONBOARDING_EMBEDDINGS_MODEL = "nomic-embed-text:latest";
 export const LOCAL_ONBOARDING_EMBEDDINGS_TITLE = "Nomic Embed";
 
+// Unicoder default configuration with A4F.co
+export const UNICODER_A4F_API_KEY = "ddc-a4f-65e1f8bbd0a843189c92111fb399fc80";
+export const UNICODER_A4F_DEFAULT_MODELS = [
+  "provider-1/chatgpt-4o-latest",
+  "provider-1/gpt-4-turbo",
+  "provider-1/gpt-3.5-turbo",
+  "provider-2/claude-3-5-sonnet-20241022",
+  "provider-2/claude-3-opus-20240229",
+  "provider-3/gemini-2.0-flash-exp",
+];
+
 const ANTHROPIC_MODEL_CONFIG = {
   slugs: ["anthropic/claude-3-7-sonnet", "anthropic/claude-4-sonnet"],
   apiKeyInputName: "ANTHROPIC_API_KEY",
@@ -21,6 +32,11 @@ const OPENAI_MODEL_CONFIG = {
 const GEMINI_MODEL_CONFIG = {
   slugs: ["google/gemini-2.5-pro", "google/gemini-2.0-flash"],
   apiKeyInputName: "GEMINI_API_KEY",
+};
+
+const A4F_MODEL_CONFIG = {
+  apiKeyInputName: "A4F_API_KEY",
+  defaultModels: UNICODER_A4F_DEFAULT_MODELS,
 };
 
 /**
